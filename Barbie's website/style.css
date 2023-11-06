@@ -1,0 +1,248 @@
+main {
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    padding: 50px; /* Increase the padding as needed */
+    border: 10px solid #ffffff; /* Increase the border width as needed */
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12, 137, 129); 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#coffee-icon {
+    /* Use your coffee cup icon or an image */
+    background-image: url('images/mug-hot-solid.svg');
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    background-size: cover;
+}
+
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#coffee-icon {
+  /* Use your coffee cup icon or an image */
+  background-image: url('images/mug-hot-solid.svg');
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  background-size: cover;
+}
+
+
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1200px; /* Adjust the maximum width as per your preference */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .header {
+    background-color: rgb(135, 211, 206);
+    text-align: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: auto;
+    height: auto;
+    color: #0a3333;
+  }
+  .navbar {
+    background-color: rgb(112, 203, 197);* Set your desired background color */
+}
+
+.navbar-toggler-icon {
+    background-color: #fafafa; /* Customize the toggle button color */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust the margin between links as needed */
+}
+
+.navbar-nav .nav-link {
+    color: #c3c3c3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(135, 211, 206);;
+    color: #ffffff;
+}
+
+  
+  
+  main {
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    padding: 20px;
+  }
+  
+
+  
+  #about {
+    font-size: 20px;
+    color: rgb(25, 69, 65);
+  }
+  
+  /* Add custom CSS for the peach background color */
+  #shrimp,
+  #sugar,
+  #carrot {
+    background-color: rgb(188, 232, 229); /* You can adjust the color to your preference */
+    padding: 20px; /* Add padding for spacing */
+    width: 100%;
+  }
+  
+  /* Style the text content within the sections */
+  #shrimp h3,
+  #sugar h3,
+  #carrot h3 {
+    color: rgb(10, 70, 66); Set the text color to a dark color for better readability */
+  }
+  
+  #shrimp p,
+  #sugar p,
+  #carrot p {
+    color: rgb(39, 115, 110); /* Adjust the text color as needed */
+  }
+  
+  /* Style the links within the sections */
+  #shrimp a,
+  #sugar a,
+  #carrot a {
+    color: #01070c; /* Set link color */
+    text-decoration: none; /* Remove underlines from links */
+    font-weight: bold; /* Make links bold for emphasis */
+  }
+  
+  #shrimp a:hover,
+  #sugar a:hover,
+  #carrot a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+  }
+  
+  form {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(37, 66, 64);
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(22, 105, 100); /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  input[type="submit"]:hover {
+    background-color: rgb(114, 224, 217); /* Button background color on hover */
+  }
+  
+  /* Additional styling for textareas (optional) */
+  textarea {
+    height: 150px; /* Adjust the height as needed */
+  }
+  
+  #donate {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for frosted glass effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(39, 222, 182, 0.2); /* Apply a subtle shadow to create depth */
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #donate a {
+    text-decoration: none;
+  }
+
+  #donate a :hover{
+    color: rgb(50, 137, 131);
+  }
+  
+  #donate h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333; /* Text color */
+  }
+  
+  #donate p {
+    color: #666; /* Text color */
+    font-size: 16px;
+  }
+  
+  .glass-container {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for frosted glass effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Apply a subtle shadow to create depth */
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .glass-container h3 {
+    color: #333; /* Text color */
+  }
+  
+  .glass-container p {
+    color: #666; /* Text color */
+  }
+  
+  .glass-container a {
+    color: #007bff; /* Link color */
+  }
+  
+  .glass-container a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+  }
+  
+/* Style for the modified footer */
+.custom-footer {
+   /* Set your desired background color */
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+/* Style for the text within the footer */
+.custom-footer p {
+    color:rgb(22, 105, 100); /* Text color */
+    font-size: 10px; /* Adjust the font size as needed for smaller text */
+}
