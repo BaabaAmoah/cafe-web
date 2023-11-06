@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Cafe </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="100">
+  <div id="loading">
+    <div id="coffee-icon"></div>
+    <p>Loading...</p>
+</div>
+
+
+    <header class="header">
+        <h1>Welcome to Healthy Cafe!</h1>
+        <h4>Feel free to check out our posts and shop our latest merch!</h4>
+      </header>
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="merch.html">Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ebooks.html">Ebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <section id="about" class="container text-center">
+            <div class="row">
+              <div class="col-md-8 mx-auto">
+                <h2>About Us</h2>
+                <p>Healthy Cafe is a small-town cafe located in Accra, Ghana. Our goal is to be the best supplier of healthy foods in Ghana</p>
+              </div>
+            </div>
+          </section>
+          
+
+
+            <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#imageCarousel" data-slide-to="1"></li>
+                  <li data-target="#imageCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables.jpg" class="d-block w-100" alt="Image 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/confident-head-cook-standing-restaurant-professional-kitchen-with-arms-crossed-while-smiling-camera-sous-chef-wearing-cooking-uniform-while-preparing-ingredients-dinner-service.jpg" class="d-block w-100" alt="Image 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/portrait-african-american-woman-relaxing-cafe-with-laptop-coffee.jpg" class="d-block w-100" alt="Image 3">
+                  </div>
+                </div>
+              </div>
+              
+        <script>
+            // Start the carousel after 5 seconds
+            $(document).ready(function() {
+              setTimeout(function() {
+                $('#imageCarousel').carousel('next');
+              }, 5000);
+            });
+          </script>
+          
+
+          <section id="shrimp" class="container glass-container">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/shrimp rice.jpg" class="img-fluid" alt="shrimp">
+              </div>
+              <div class="col-md-6">
+                <h3>The Tastiest and Healthiest Shrimp Jollof Recipe</h3>
+                <p>Shrimp fried rice is a delicacy! Many people enjoy this Asian dish, and here we show the most nutritious recipe! <a href="blog.html">Click more...</a></p>
+              </div>
+            </div>
+          </section>
+          
+          <section id="sugar" class="container glass-container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <img src="images/sugar.jpg" class="img-fluid" alt="sugar">
+              </div>
+              <div class="col-md-6">
+                <h3>Diabetes...How do we prevent it?</h3>
+                <p>Diabetes is a blood-related condition that has devastating complications on the human body. How do we prevent and manage this? <a href="blog.html">Click more...</a></p>
+              </div>
+            </div>
+          </section>
+          
+          <section id="carrot" class="container glass-container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <img src="images/carrots.jpg" class="img-fluid" alt="carrot">
+              </div>
+              <div class="col-md-6">
+                <h3>These Foods Will Improve Your Vision</h3>
+                <p>Vitamin A plays a big role when it comes to your eyesight. The following foods are identified as superfoods to improve your eyesight. <a href="blog.html">Click more...</a></p>
+              </div>
+            </div>
+          </section>
+          
+          
+
+        <section id="donate">
+            <a href="donate.html"><h2>Donate</h2></a>
+            <p> Healthy Cafe also donates food to refugees and orphans.The donations goes to the charity and
+            also helps us create content and help people to eat healthier.</p>
+        </section>
+
+
+        <form action="/enquiries" method="post">
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email address">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <div class="d-flex justify-content-center">
+                <input type="submit" value="Submit">
+            </div>
+          </form>
+            
+   
+    </main>
+
+
+    <footer class="custom-footer">
+        <p class="smaller-text">Copyright &copy; 2023 Healty Cafe</p>
+      </footer>        
+
+
+      <script>
+        window.addEventListener("load", function () {
+            const loading = document.getElementById("loading");
+            loading.style.display = "none";
+        });
+    </script>
+
+<script>
+  $(document).ready(function () {
+    $('body').scrollspy({ target: '#nav' });
+  });
+</script>
+
+
+</body>
+</html>
